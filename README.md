@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Control de pacientes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto pemite realizar un control de los pacientes de una veterinaria. Ha siHa sido desarrollado utilizando React, Typescript y Vite, junto con algunas librerías adicionales para mejorar la experiencia del usuario. 
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Typescrpt
+- Vite
 
-## Expanding the ESLint configuration
+## Hooks Utilizados
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Este proyecto hace uso de varios hooks de React, incluyendo:
 
-- Configure the top-level `parserOptions` property like this:
+- useState
+- useEffect
+- useForm
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Estos hooks son fundamentales para gestionar el estado y el ciclo de vida de los componentes, permitiendo una experiencia fluida para el usuario.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Librerías Utilizadas
+
+Además de las tecnologías mencionadas, este proyecto hace uso de las siguientes librerías:
+
+- Tailwind CSS
+- UUID
+- react-Toastify
+- zustand
+
+Estas librerías añaden funcionalidades específicas para mejorar la presentación y la interactividad de la aplicación.
+Tailwind CSS se utilizó para diseñar una interfaz amigable, UUID para la generación de id's únicos para cada registro realizado, react-toastify para el manejo de alertas y mensajes en el sistema y zustand para manejar un estado global de la aplicación.
+
+## Prueba la Aplicación
+
+Puedes probar la funcionalidad del sistema accediendo al siguiente enlace:
+
+[Control de Pacientes en producción](https://veterinaria-zustand-danielbriseno.netlify.app/)
+
+¡Toma el control de tus finanzas y gestiona tus gastos de manera eficiente!
